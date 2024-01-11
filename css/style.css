@@ -19,10 +19,14 @@ footer {
   padding: 20px;
   text-align: center;
 }
+ul li {
+  display: inline;
+  margin-right: 25px;
+}
 
 .hero-image {
   height: 100vh;
-  background-image: url("images/primary_image.jpg");
+  background-image: url("../images/primary_image.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
