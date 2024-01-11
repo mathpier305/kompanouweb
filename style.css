@@ -1,0 +1,41 @@
+@charset "UTF-8";
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero-image {
+  height: 100vh;
+  background-image: url("images/primary_image.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 5px black; /* Improve text readability on image */
+}
+
+@media (max-width: 768px) {
+  /* Styles for smaller screens (e.g., mobile phones) */
+  main {
+    padding: 10px;
+  }
+}
