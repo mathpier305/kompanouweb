@@ -19,7 +19,7 @@ footer {
   padding: 20px;
   text-align: center;
 }
-ul li {
+.navitem {
   display: inline;
   margin-right: 25px;
 }
