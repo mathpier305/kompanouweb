@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introducing [App Name]</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #bb5a2a;
+        height: 100%;
+        display: flex;
+        color: rgb(243, 239, 239);
+      }
+
+      .app-container {
+        text-align: center;
+        padding: 50px;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 50px; /* Add margin for footer */
+      }
+
+      .column {
+        padding: 10px;
+      }
+
+      .left {
+        width: 60%;
+        padding-top: 75px;
+        padding-right: 30px;
+        padding-left: 30px;
+      }
+      .right {
+        width: 40%;
+      }
+      .full_width {
+        flex-basis: 100%;
+        height: 0;
+      }
+
+      h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 1.2em;
+        line-height: 1.5;
+        margin-bottom: 30px;
+      }
+
+      .download-button {
+        background-color: #3399ff;
+        color: white;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        text-decoration: none;
+      }
+
+      .app-logo {
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 0.8em;
+        color: #666;
+        padding: 10px;
+      }
+
+      h1 {
+        font-size: 6em;
+      }
+
+      section {
+        padding-top: 1em;
+        font-size: 3em;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      .image-avd-padding {
+        padding-top: 60px;
+        padding-left: 40px;
+      }
+
+      .horizontal-line {
+        width: 80%;
+        border: 1px solid grey;
+      }
+
+      footer a {
+        color: #666;
+        text-decoration: none;
+        margin-left: 10px;
+      }
+      .row {
+        flex-wrap: nowrap;
+        flex-flow: row;
+        flex-direction: row;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app-logo">
+      <img
+        src="images/app_logo_img.png"
+        width="100px"
+        height="100px"
+        alt="logo"
+      />
+    </div>
+    <div class="column left text-center">
+      <h1>KompaNou Events</h1>
+      <section>
+        One place to view all the hottest events happening in the konpa music
+        world.
+      </section>
+
+      <section>
+        Discover haitian musics and dance to your favorites bands.
+      </section>
+
+      <section>
+        Find compas events near you to meet and support your bands.
+      </section>
+    </div>
+    <div class="column right image-avd-padding">
+      <img src="images/kompaNou_eventapp.png" width="400px" />
+    </div>
+    <div class="row">Hello world</div>
+  </body>
+</html>
