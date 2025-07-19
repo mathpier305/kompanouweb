@@ -1,5 +1,4 @@
 import { Box, Heading, Text, VStack, Flex, Button, Image, Icon } from '@chakra-ui/react'
-import { Link as RouterLink } from 'react-router-dom'
 import myImage from '../assets/image_for_app.jpeg'
 import { FaGooglePlay, FaMobileAlt } from 'react-icons/fa'
 import { useEffect } from 'react'

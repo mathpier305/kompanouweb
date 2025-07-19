@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { Box, Heading, Text, VStack, Container } from '@chakra-ui/react'
+import { Heading, Text, VStack, Container } from '@chakra-ui/react'
 
 const TermsOfUse = () => {
   useEffect(() => {
